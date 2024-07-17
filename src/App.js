@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import { Header, Footer, Container } from "./components";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Header  />
+            <Container>content</Container>
+            <Footer /> 
+        </>
+    );
 }
 
+//Because it's the primary
 export default App;
+
+
+// {/* <Header text="Header Props" name="header name" color="blue" />
+// {/* <Container /> */}
+// <Container>
+//     Contenttttt
+// </Container>{/* closing component*/}
+// <Footer /> self closing component */}
