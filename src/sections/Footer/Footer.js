@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-        Header
+    <div className='cc'>
+        Teeeeeeeeeeeeeeees
     </div>
   )
 }

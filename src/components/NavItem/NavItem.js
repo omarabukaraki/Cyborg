@@ -1,11 +1,12 @@
 import React from "react";
+import './NavItem.css';
 
 
 
 const NavItem = (props) => {
   return (
     <>
-      <li className="nav-item">
+     <li className="nav-item">
         {props.children}
       </li>
     </>
@@ -14,13 +15,4 @@ const NavItem = (props) => {
 
 
 
-const NavItemDropdown = (props) => {
-    return (
-      <li className="nav-item dropdown"> {props.children}</li>
-    )
-  }
-
-
-
-export default NavItem
-export {NavItemDropdown}
+export default NavItem;

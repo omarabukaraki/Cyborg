@@ -2,9 +2,9 @@ import React from "react";
 import './Container.css';
 
 function Container(props){
-    return(<>
-    <p>{props.children}</p>
-    </>);
+    return(
+    <div className="container main-container">{props.children}</div>
+    );
 }
 
 export default Container;

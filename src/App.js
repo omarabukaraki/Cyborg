@@ -1,25 +1,21 @@
 import React from "react";
 import './App.css';
-import { Header, Footer, Container } from "./components";
-
+import {Container} from "./components";
+import {Header,Hero,MostPopular,Footer} from './sections/index';
 
 function App() {
     return (
         <>
             <Header  />
-            <Container>content</Container>
-            <Footer /> 
+            <Container>
+                <Hero />
+                <MostPopular />
+            </Container>
+            {/* <Footer />  */}
         </>
     );
 }
 
-//Because it's the primary
 export default App;
 
 
-// {/* <Header text="Header Props" name="header name" color="blue" />
-// {/* <Container /> */}
-// <Container>
-//     Contenttttt
-// </Container>{/* closing component*/}
-// <Footer /> self closing component */}

@@ -1,0 +1,26 @@
+.section-wrapper{
+    margin-top: var(--padding-primary);
+    border-radius: calc(var(--padding-primary)/2);
+    padding: calc(var(--padding-primary)/1.4);
+    background-color: #1f2122;
+}
+.section-header{
+    margin-bottom: calc(var(--padding-primary)/1.8);
+}
+.section-header h4{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.section-header span{
+    color: white;
+    text-decoration: underline;
+}
+.most-popular-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 2rem;
+}
+
+
+
