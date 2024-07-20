@@ -3,8 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className='cc'>
-        Teeeeeeeeeeeeeeees
+    <div className='copyR'>
+        <p>Copyright © 2024 Cyborg Gaming Company. All rights reserved.<br/>
+        Design By: Omar abu karaki</p>
     </div>
   )
 }
