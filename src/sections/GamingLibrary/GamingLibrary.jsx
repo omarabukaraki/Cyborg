@@ -14,9 +14,9 @@ const GamingLibrary = () => {
                 <h4><span>Your Gaming</span> Library</h4>
             </div>
             <div className='g-libraries'>
-                <GLibrary image={game_1}/>
-                <GLibrary image={game_2}/>
-                <GLibrary image={game_3}/>
+                <GLibrary imageG={game_1}/>
+                <GLibrary imageG={game_2}/>
+                <GLibrary imageG={game_3}/>
             </div>
         </div>
     )
