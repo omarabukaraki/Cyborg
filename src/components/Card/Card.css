@@ -1,5 +1,7 @@
 
 .card-wrapper{
+   width: 90%;
+   margin: 5%;
     background-color: #27292a;
     border-radius: calc(var(--padding-primary)/2);
     display: flex;
