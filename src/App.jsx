@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import {Container} from "./components";
-import {Header,Hero,MostPopular,Footer} from './sections/index';
+import {Header,Hero,MostPopular,GamingLibrary,Footer} from './sections/index';
 
 function App() {
     return (
@@ -10,6 +10,7 @@ function App() {
             <Container>
                 <Hero />
                 <MostPopular />
+                <GamingLibrary />
             </Container>
             {/* <Footer />  */}
         </>

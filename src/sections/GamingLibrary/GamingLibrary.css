@@ -1,0 +1,18 @@
+.game-library-section{
+    margin-top: var(--padding-primary);
+    border-radius: calc(var(--padding-primary)/2);
+    padding: calc(var(--padding-primary)/1.4);
+    background-color: #1f2122;
+}
+.game-section-header{
+    margin-bottom: calc(var(--padding-primary)/1.8);
+}
+.game-section-header h4{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+.game-section-header span{
+    color: white;
+    text-decoration: underline;
+}
